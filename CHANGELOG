@@ -11,6 +11,10 @@ Mark Grimshaw 2004/2005/2006
 http://bibliophile.sourceforge.net
 
 ################################################
+v2.2.1
+2023-04-14 - Cai Wingfield
+Bring into compatibility with PHP version 8.
+
 v2.2
 24/April/2006 - Esteban Zimanyi and Mark Grimshaw
 1/ A 4th array, $this->undefinedStrings, is now returned that holds field values that are judged to be undefined strings. i.e. they are a non-numeric value that is not defined in a @string{...} entry and not enclosed by braces or double-quotes. This array will be empty unless the following condition is met:
